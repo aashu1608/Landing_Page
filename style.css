@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family :Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.43);
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-right: 10px;
+
+}
+
+#logo{
+    font-size: 33px;
+    margin: 20px;
+}
+
+#nav a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#nav{
+    display: flex;
+    gap: 50px;
+}
+
+#nav a:hover{
+  color: rgb( 113,118,118);
+  border-bottom: 3px solid rgb( 113,118,118);
+}
+    
+
+
+#icon{
+    display: flex;
+    font-size: 25px;
+    margin-right: 18px;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    
+}
+
+#bleft{
+    width: 60%;
+    height: 100%;
+   
+}
+
+#bltop{
+    width: 99%;
+    height: 59%;
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+
+#bltop #text h1{
+     width: 100%;
+    margin-left: 8%;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+#bltop #text p{
+    width: 100%;
+    margin-top: 8%;
+    font-size: 22px;
+}
+
+#blbottom{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: space-around;
+}
+
+#box-1{
+    width: 48%;
+    height:100%;
+    background-image: url(my\ pic2.jpeg);
+    background-size: cover;
+    background-position: top ;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#box-1 h3{
+    margin-top: 50%;
+    font-size: 30px;
+    margin-left: 5%;
+    
+
+
+}
+
+#box-2{
+    width: 48%;
+    height: 100%;
+    background-image: url(my\ pic3.jpeg);
+    background-size: cover;
+    background-position: top ;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+
+#box-2 h3{
+    margin-top: 50%;
+    font-size: 30px;
+    margin-left: 5%;
+    color: black;
+}
+
+#bright{
+    width: 40%;
+    height: 100%;
+    background-image: url(my\ pic.jpeg);
+   
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#rbox{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(128, 128, 128, 0.43);
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#rbox h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+    color: white;
+}
+
+#button1 {
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 35%;
+    font-size: 22px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    
+}
+
+#button1 h5{
+    margin-left: 10px;
+    font-size: 19px;
+    margin-top: 12px;
+}
+
+#button1 i{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#button2 h5{
+    margin-left: 10px;
+    font-size: 19px;
+    margin-top: 12px;
+}
+
+#button2 {
+    display: flex;
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    margin-left: 25%;
+    margin-top: 35%;
+    font-size: 22px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#button2 i{
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+#button1:hover{
+    background-color: rgb(94 96 96);
+    color: white;
+}
+
+#button2:hover{
+    background-color: rgb(84 86 86);
+    color: white;
+}
+
+
+
